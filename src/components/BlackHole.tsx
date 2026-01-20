@@ -189,7 +189,7 @@ const InnerInflow = ({ count = 40000, color = COLORS.electric }) => {
 
 const EventHorizon = () => <mesh><sphereGeometry args={[3.2, 64, 64]} /><meshBasicMaterial color="#000000" /></mesh>;
 
-const Gargantua = ({ onSelect, selectedLogo }: any) => {
+const Gargantua = ({ onSelect, selectedLogo }: { onSelect: (logo: any) => void, selectedLogo: any }) => {
   const mainGroup = useRef<THREE.Group>(null);
 
   return (
@@ -268,7 +268,19 @@ export const BlackHole = () => {
         </h1>
       </header>
 
-      <Canvas dpr={[1, 2]} gl={{ antialias: true, alpha: false, powerPreference: "high-performance" }} raycaster={{ params: { Points: { threshold: 0.1 } } }}>
+      <Canvas 
+        dpr={[1, 2]} 
+        gl={{ antialias: true, alpha: false, powerPreference: "high-performance" }} 
+        raycaster={{ 
+          params: { 
+            Points: { threshold: 0.1 },
+            Mesh: {},
+            Line: { threshold: 1 },
+            LOD: {},
+            Sprite: {}
+          } 
+        } as any}
+      >
         <PerspectiveCamera makeDefault position={[0, 0, isMobile ? 45 : 30]} fov={35} />
         <color attach="background" args={["#000000"]} />
         <Stars radius={150} depth={50} count={isMobile ? 2000 : 4000} factor={4} saturation={0} fade speed={0.1} />

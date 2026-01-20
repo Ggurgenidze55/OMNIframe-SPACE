@@ -577,7 +577,13 @@ const BlackHole = ()=>{
                     params: {
                         Points: {
                             threshold: 0.1
-                        }
+                        },
+                        Mesh: {},
+                        Line: {
+                            threshold: 1
+                        },
+                        LOD: {},
+                        Sprite: {}
                     }
                 },
                 children: [
@@ -591,7 +597,7 @@ const BlackHole = ()=>{
                         fov: 35
                     }, void 0, false, {
                         fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                        lineNumber: 272,
+                        lineNumber: 284,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("color", {
@@ -601,7 +607,7 @@ const BlackHole = ()=>{
                         ]
                     }, void 0, false, {
                         fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                        lineNumber: 273,
+                        lineNumber: 285,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f40$react$2d$three$2f$drei$2f$core$2f$Stars$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Stars"], {
@@ -614,7 +620,7 @@ const BlackHole = ()=>{
                         speed: 0.1
                     }, void 0, false, {
                         fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                        lineNumber: 274,
+                        lineNumber: 286,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f40$react$2d$three$2f$drei$2f$core$2f$Float$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Float"], {
@@ -626,19 +632,19 @@ const BlackHole = ()=>{
                             selectedLogo: selectedLogo
                         }, void 0, false, {
                             fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                            lineNumber: 276,
+                            lineNumber: 288,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                        lineNumber: 275,
+                        lineNumber: 287,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ambientLight", {
                         intensity: 1.5
                     }, void 0, false, {
                         fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                        lineNumber: 278,
+                        lineNumber: 290,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f40$react$2d$three$2f$postprocessing$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EffectComposer"], {
@@ -650,14 +656,14 @@ const BlackHole = ()=>{
                                 radius: 0.5
                             }, void 0, false, {
                                 fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                                lineNumber: 280,
+                                lineNumber: 292,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f40$react$2d$three$2f$postprocessing$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Noise"], {
                                 opacity: 0.04
                             }, void 0, false, {
                                 fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                                lineNumber: 281,
+                                lineNumber: 293,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f40$react$2d$three$2f$postprocessing$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Vignette"], {
@@ -665,13 +671,13 @@ const BlackHole = ()=>{
                                 darkness: 1.3
                             }, void 0, false, {
                                 fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                                lineNumber: 282,
+                                lineNumber: 294,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                        lineNumber: 279,
+                        lineNumber: 291,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -738,12 +744,12 @@ const BlackHole = ()=>{
                                     size: isMobile ? 24 : 32
                                 }, void 0, false, {
                                     fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                                    lineNumber: 333,
+                                    lineNumber: 345,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                                lineNumber: 321,
+                                lineNumber: 333,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -770,12 +776,12 @@ const BlackHole = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                                    lineNumber: 349,
+                                    lineNumber: 361,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                                lineNumber: 336,
+                                lineNumber: 348,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -790,7 +796,7 @@ const BlackHole = ()=>{
                                 children: selectedLogo.name
                             }, void 0, false, {
                                 fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                                lineNumber: 356,
+                                lineNumber: 368,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -803,7 +809,7 @@ const BlackHole = ()=>{
                                 children: selectedLogo.desc
                             }, void 0, false, {
                                 fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                                lineNumber: 367,
+                                lineNumber: 379,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$TEST__ANIMATION__LANDING$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -822,23 +828,23 @@ const BlackHole = ()=>{
                                 children: "გაგრძელება"
                             }, void 0, false, {
                                 fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                                lineNumber: 376,
+                                lineNumber: 388,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                        lineNumber: 302,
+                        lineNumber: 314,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                    lineNumber: 300,
+                    lineNumber: 312,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/TEST ANIMATION LANDING/src/components/BlackHole.tsx",
-                lineNumber: 287,
+                lineNumber: 299,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
