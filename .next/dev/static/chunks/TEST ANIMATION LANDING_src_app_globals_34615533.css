@@ -1,0 +1,34 @@
+/* [project]/TEST ANIMATION LANDING/src/app/globals.css [app-client] (css) */
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: #000;
+  --foreground: #fff;
+}
+
+html, body {
+  color: #fff;
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#__next, [data-nextjs-scroll-focus-boundary] {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=TEST%20ANIMATION%20LANDING_src_app_globals_34615533.css.map*/

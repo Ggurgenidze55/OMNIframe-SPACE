@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #000000;
+  color: #ffffff;
+}
+
+#__next, [data-nextjs-scroll-focus-boundary] {
+  height: 100%;
+  width: 100%;
+}
